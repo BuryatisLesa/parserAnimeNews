@@ -1,0 +1,927 @@
+C:\Users\Константин\PycharmProjects\ParserAnimeNews\.venv\Scripts\python.exe C:\Users\Константин\PycharmProjects\ParserAnimeNews\init.py 
+<div class="content_wrap">
+<div class="content_main">
+<script>
+
+	function moderate_comments()
+	{
+
+		$('[input[name*="v_"]:checked').each(function(){
+
+		   $.ajax({url: "/admin/adminactions.php", data: ({
+		   		'action': 'moderate_comment',
+		   		'id': $(this).attr('name').split('_')[1],
+		   		'status': $(this).val()
+		   	}),	dataType: "json", type: "POST" }).done(function(data) {
+		   	if (data['status']=='success')
+		   	{
+
+		   	}
+		   	else
+		   	{
+		   		console.log ('fail');
+		   	}
+		   }).fail(function() { console.log ('Ошибка вызова функции'); });
+		});
+
+		$('#moderate_comments_list').hide(500);
+
+	}
+</script><div class="ten_col2_content">
+<div class="news_box anime_cat single" id="news_box_125478" itemscope="" itemtype="https://schema.org/Article">
+<div class="news_box_menu">
+<div class="b_news_box_menu js-toggleNewsContainer" id="news_hide_125478">• • •</div>
+<div "="" class="container" id="news_hide_container_125478">
+		 
+		</div>
+</div>
+<div class="news_output clearfix" id="newstop_125478">
+<a class="comments" href="/comments/123737-pojavilos-prevju-pervoj-serii-horroranime-spiral/" title="Комментарии">1</a>
+<div class="cat uni-anime_bg" itemprop="articleSection">АНИМЕ</div>
+<div class="date" content="2024-09-25T17:45:00+03:00" itemprop="datePublished">Вчера в 17:45</div>
+<div class="views" title="Количество просмотров новости">599</div>
+<a class="author" href="/authors/ivanov/" itemprop="author">Иван Иванов</a>
+</div>
+<h1 class="news_title" id="nh125478" itemprop="name">Появилось превью первой серии хоррор-аниме «Спираль»</h1>
+<div class="news_text" id="n125478" itemprop="articleBody">
+<div class="news_cover_center"><picture><source srcset="/img/117434/main_2x.webp 2x, /img/117434/main.webp 1x" type="image/webp"/><img alt="Источник: Drive" loading="lazy" src="/img/117434/main.jpg" srcset="/img/117434/main_2x.jpg 2x, /img/117434/main.jpg 1x" title="Источник: Drive"/></picture></div>
+<p>YouTube-канал Adult Swim опубликовал <a href="https://youtu.be/xRGetdqTAvE">превью</a> первого эпизода аниме по хоррор-манге <strong><a href="/anime/uzumaki/">«Спираль»</a></strong> (<strong>Uzumaki</strong>) Дзюндзи Ито. Ролик сосредотачивает внимание на героине Азами Куротани. Её озвучивает сэйю Мария Исе.</p>
+<p>Премьера экранизации намечена на 28 сентября в блоке Adult Swim на телеканале Cartoon Network и на следующий день на стриминговом сервисе Max. В сериале заявлены четыре эпизода.</p>
+<p>Аниме анонсировали в 2019 году и планировали выпустить в 2020-м. Но его релиз неоднократно переносили. Ранее сообщалось, что пpoизвoдcтвoм cepиaлa зaнимaютcя Production I.G. USA и Adult Swim. А недавно выходил <a href="https://kg-portal.ru/comments/123455-trejler-miniseriala-spiral-obeschaet-strashnuju-animeadaptaciju-mangi-dzjundzi-ito/">трейлер</a> аниме, обещающий страшную адаптацию оригинальной манги.</p>
+<p><em>Kypoдзy — мaлeнький япoнcкий гopoд. Cтapшeклaccники Kиpиe и Щyичи cтaнoвятcя cвидeтeлями тoгo, кaк житeли Kypoдзy и caм гopoд, нaпoлнeнный cпиpaлями, нaчинaют гибнyть из-зa жyткoгo пpoклятья.</em></p>
+<div class="news_cast_table">
+<table>
+<tr>
+<td class="col1"></td>
+<td class="col2"><h3>Авторы</h3></td>
+<td class="col3"></td>
+</tr>
+<tr>
+<td class="col1"><b>Peжиccёp</b></td>
+<td class="col2">Xиpoщи Haгaxaмa</td>
+<td class="col3">фpaнчaйз <a href="/anime/mushishi/">«Macтep Myщи»</a></td>
+</tr>
+<tr>
+<td class="col1"><b>Cцeнapиcт</b></td>
+<td class="col2">Aки Итaми</td>
+<td class="col3">эпизoды «Macтepa Myщи»</td>
+</tr>
+<tr>
+<td class="col1"><b>Koмпoзитop</b></td>
+<td class="col2">Koлин Cтeтcoн</td>
+<td class="col3">фильм <a href="/movies/hereditery">«Peинкapнaция»</a></td>
+</tr>
+<tr>
+<td class="col1"><b>Cтyдия</b></td>
+<td class="col2">Drive</td>
+<td class="col3"></td>
+</tr>
+</table>
+</div>
+<p>Maнгa «Cпиpaль» пeчaтaлacь в 1998–1999 гoдax в жypнaлe Big Comic Spirits издaтeльcтвa Shogakukan и собрана в три тома. Пo «Cпиpaли» выходили видeoигpы, xyдoжecтвeнный фильм и poмaн.</p>
+<div class="video" id="youtube125478"><div class="uni_player movies"><div class="center"><div class="flowplayer fp-youtube fp-full fp-edgy fp-video" id="youtubeplayerxRGetdqTAvE" onclick="kgplayer ('youtubeplayerxRGetdqTAvE').init();">
+<div class="atlas b_youtube-play"> </div><picture><source srcset="https://kg-portal.ru/img/125478/xRGetdqTAvE.webp 2x, https://kg-portal.ru/img/125478/xRGetdqTAvE.webp 1x" type="image/webp"/><img class="splash" loading="lazy" src="https://kg-portal.ru/img/125478/xRGetdqTAvE.jpg" srcset="https://kg-portal.ru/img/125478/xRGetdqTAvE.jpg 2x, https://kg-portal.ru/img/125478/xRGetdqTAvE.jpg 1x"/></picture></div>
+<script>
+    function getYoutubeId_youtubeplayerxRGetdqTAvE() {
+        return 'xRGetdqTAvE';
+    };
+</script></div></div></div>
+</div>
+<div class="news_footer clearfix">
+<div class="tags">
+<span class="label">Теги</span>
+<!--div class="b_expand js-expandNewsTags">&nbsp;</div-->
+<div class="list">
+<a href="/news/tags/video/">Видео</a> •							<a href="/anime/uzumaki/">Спираль (Uzumaki)</a> </div>
+</div>
+</div>
+</div><!-- //news_box -->
+<div class="news_commentsjump" onclick="$('html, body').animate({ scrollTop: $('#comments').offset().top }, 500);">Комментарии (1)</div>
+</div>
+<div class="news-extras-wrap">
+<div class="news-extras related">
+<p class="lead">Ещё на эту тему</p>
+<div class="array">
+<a class="item anime" href="/comments/123455-trejler-miniseriala-spiral-obeschaet-strashnuju-animeadaptaciju-mangi-dzjundzi-ito/"><span>1</span>Трейлер мини-сериала «Спираль» обещает страшную аниме-адаптацию манги Дзюндзи Ито</a>
+</div>
+</div>
+<div class="news-extras related">
+<p class="lead">Тоже интересно</p>
+<div class="array">
+<a class="item movies" href="/comments/123692-provalnaja-ekshenkomedija-dejva-batisty-igra-killera-skoro-vyjdet-v-cifre/"><span>3</span>Провальная экшен-комедия Дэйва Батисты «Игра киллера» скоро выйдет в цифре</a>
+<a class="item movies" href="/comments/123100-shpionskij-ekshen-s-holli-berri-i-markom-uolbergom-ot-netflix-poluchaet-sderzhannye-pohvaly-ot-kritikov/"><span>9</span>Шпионский экшен с Холли Берри и Марком Уолбергом на Netflix получает сдержанные похвалы от критиков</a>
+<a class="item tv" href="/comments/123381-chuzhoj-zemlja-tizer/"><span>28</span>«Чужой: Земля» Ноя Хоули показал свой первый тизер</a>
+<a class="item tv" href="/comments/122495-bandity-vo-vremeni-trejler/"><span>12</span>Тайка Вайтити изображает бога в трейлере фэнтези «Бандиты во времени»</a>
+<a class="item games" href="/comments/122970-sluh-v-set-popali-pervye-izobrazhenija-rossijskoj-igrovoj-konsoli-na-baze-processorov-elbrus/"><span>31</span>Слух: в сеть попали первые изображения российской игровой консоли на базе процессора «Эльбрус»</a>
+</div>
+</div>
+</div>
+<div class="news-extras-wrap">
+<div class="news-extras social">
+<p>Вступайте в <a href="https://vk.com/kgportal" target="_blank"><b>наш паблик Вконтакте</b></a>, добавляйтесь в <a href="https://tgclick.com/kgportal" target="_blank"><b>Телеграме</b></a> и <a href="https://icq.im/kgportal" target="_blank"><b>Аське</b></a>, подписывайтесь на <a href="https://www.youtube.com/КГПортал" target="_blank"><b>Ютуб-канал</b></a>, и вообще — не стесняйтесь следить за КГ в соцсетях и мессенджерах:</p>
+<div class="array">
+<a class="item" href="https://vk.com/kgportal" style="background-color: #27ad74;" target="_blank">ВКонтакте.Кино</a>
+<a class="item" href="https://icq.im/kgportal" style="background-color: #299e00;" target="_blank">ICQ-канал</a>
+<a class="item" href="https://tgclick.com/kgportal" style="background-color: #4ca4d2;" target="_blank">Телеграм-канал</a>
+<a class="item" href="https://www.youtube.com/КГПортал" style="background-color: #e81a1a;" target="_blank">YouTube</a>
+<a class="item" href="https://twitter.com/kinogovno" style="background-color: #1da1f2;" target="_blank">Твиттер</a>
+</div>
+</div>
+<div class="news-extras social">
+<p class="lead">Понравился материал? Поделитесь с друзьями:</p>
+<div class="array">
+<div class="item social-vkontakte"><span class="atlas" onclick="shares.init.call(this,'vk');"> </span></div>
+<!--div class="item social-telegram"><span class="atlas" onclick="shares.init.call(this,'tg');">&nbsp;</span></div-->
+<div class="item social-twitter"><span class="atlas" onclick="shares.init.call(this,'tw');"> </span></div>
+<div class="item social-odnoklassniki"><span class="atlas" onclick="shares.init.call(this,'ok');"> </span></div>
+<div class="item social-livejournal"><span class="atlas" onclick="shares.init.call(this,'lj');"> </span></div>
+</div>
+</div>
+</div>
+<div class="news-extras-wrap">
+<div class="news-extras related scrollable">
+<p class="lead">Далее на КГ</p>
+<div class="array">
+<a class="item movies" href="/comments/123736-odinokie-volki-finalnyj-trejler/" style="background-image: url(/newsthumbs/big/125477_2x.jpg);"><span>9</span><div>Мощные волчары Брэд Питт и Джордж Клуни в финальном трейлере фильма «Одинокие волки»</div></a>
+<a class="item games" href="/comments/123735-alan-wake-2-vstrechaet-control-v-trejlere-dopolnenija-the-lake-house/" style="background-image: url(/newsthumbs/big/125476_2x.jpg);"><span>1</span><div>Alan Wake 2 встречает Control в трейлере дополнения The Lake House</div></a>
+<a class="item movies" href="/comments/123734-u-hellboja-prokljatija-gorbuna-dazhe-ne-poluchitsja-pochelovecheski-provalitsja-v-prokate/" style="background-image: url(/newsthumbs/big/125475_2x.jpg);"><span>17</span><div>У «Хеллбоя: Проклятия Горбуна» даже не получится по-человечески провалиться в прокате</div></a>
+<a class="item movies" href="/comments/123733-v-boevik-nikto-2-vzjali-esche-odnogo-nemolodogo-aktera/" style="background-image: url(/newsthumbs/big/125474_2x.jpg);"><span>2</span><div>В боевик «Никто 2» взяли ещё одного немолодого актёра</div></a>
+<a class="item movies" href="/comments/123732-horoshij-film-za-mnogie-gody-ot-kevina-smita-skoro-vyhodit-v-cifre/" style="background-image: url(/newsthumbs/big/125473_2x.jpg);"><span>6</span><div>Хороший за многие годы фильм от Кевина Смита скоро выходит в цифре</div></a>
+<a class="item" href="/comments/123731-arhivrag-rosomahi-poluchil-novyj-lichnyj-komiks/" style="background-image: url(/newsthumbs/big/125472_2x.jpg);"><span>0</span><div>Архивраг Росомахи получил новый личный комикс</div></a>
+<a class="item games" href="/comments/123716-v-set-uplyl-trejler-legacy-of-kain-soul-reaver-i-ii-remastered/" style="background-image: url(/newsthumbs/big/125457_2x.jpg);"><span>7</span><div>В сеть уплыл трейлер Legacy of Kain: Soul Reaver I &amp; II Remastered</div></a>
+<a class="item games" href="/comments/123730-ghost-of-ytei-trejler/" style="background-image: url(/newsthumbs/big/125471_2x.jpg);"><span>22</span><div>Ghost of Yōtei — новая героиня продолжит дело Призрака Цусимы</div></a>
+<a class="item anime" href="/comments/123729-rossijskaja-aktrisa-i-model-sygraet-vo-vtorom-sezon-vanpis-vmeste-s-dzho-manganello/" style="background-image: url(/newsthumbs/big/125470_2x.jpg);"><span>13</span><div>Российская актриса и модель сыграет во втором сезоне «Ван-Пис» вместе с Джо Манганьелло</div></a>
+<a class="item games" href="/comments/123728-krov-kishki-i-vse-takoe-v-trejlere-novyh-dobivanij-dlja-mortal-kombat-1/" style="background-image: url(/newsthumbs/big/125469_2x.jpg);"><span>3</span><div>Кровь, кишки и всё такое в трейлере новых добиваний для Mortal Kombat 1</div></a>
+</div>
+</div>
+</div>
+<div class="comments_news" id="comments"></div> <!-- comments form -->
+<div class="comments_form" id="comments_form_wrapper" style="min-height: 300px;">
+<div class="auth_block">
+<h5>Авторизируйтесь, чтобы оставлять комментарии:</h5>
+<div class="userbar_standalone">
+<div class="userbar"><form action="/auth/login/" class="userbar-login" method="post" name="login">
+<div class="section social_login">
+<h5>Войти через соцсети</h5>
+<div class="ulogin clearfix" data-ulogin="display=buttons;mobilebuttons=0;sort=default;lang=ru;providers=vkontakte,facebook,google,twitter,mailru,yandex,odnoklassniki,googleplus,steam,livejournal;fields=first_name,last_name;optional=photo,photo_big,email,bdate,sex,phone,city,country;callback=uLoginAuth;redirect_uri=https%253A%252F%252Fkg-portal.ru%252Fcomments%252F123737-pojavilos-prevju-pervoj-serii-horroranime-spiral%252F">
+<a href="/oauth2.php?service=vk&amp;redirect=https%253A%252F%252Fkg-portal.ru%252Fcomments%252F123737-pojavilos-prevju-pervoj-serii-horroranime-spiral%252F"><div class="b_social_medium vkontakte"> </div></a>
+<a href="/oauth2.php?service=mailru&amp;redirect=https%253A%252F%252Fkg-portal.ru%252Fcomments%252F123737-pojavilos-prevju-pervoj-serii-horroranime-spiral%252F"><div class="b_social_medium mailru"> </div></a>
+<a href="/oauth2.php?service=yandex&amp;redirect=https%253A%252F%252Fkg-portal.ru%252Fcomments%252F123737-pojavilos-prevju-pervoj-serii-horroranime-spiral%252F"><div class="b_social_medium yandex"> </div></a>
+<a href="/oauth2.php?service=google&amp;redirect=https%253A%252F%252Fkg-portal.ru%252Fcomments%252F123737-pojavilos-prevju-pervoj-serii-horroranime-spiral%252F"><div class="b_social_medium google"> </div></a>
+<a href="/oauth2.php?service=facebook&amp;redirect=https%253A%252F%252Fkg-portal.ru%252Fcomments%252F123737-pojavilos-prevju-pervoj-serii-horroranime-spiral%252F"><div class="b_social_medium facebook"> </div></a>
+</div>
+<h5 class="caution">При проблемах с логином отключите AdBlock</h5>
+</div>
+<div class="section forum_login">
+<h5>Или через наш форум</h5>
+<input class="input" name="username" placeholder="Логин" type="text">
+<div class="input_combo">
+<input class="input password" name="password" placeholder="Пароль" type="password">
+<input name="CookieDate" type="hidden" value="1">
+<input name="Privacy" type="hidden" value="0">
+<input name="loginaction" type="hidden" value="login">
+<input class="b_login" name="submit" type="submit" value="Войти"/>
+</input></input></input></input></div>
+<a href="http://www.kg-forum.ru/index.php?app=core&amp;module=global§ion=register" target="_blank">Регистрация</a>
+<a href="http://www.kg-forum.ru/index.php?app=core&amp;module=global§ion=lostpass" target="_blank">Вспомнить пароль</a>
+</input></div>
+</form></div> </div>
+</div>
+<div class="sp-50"></div>
+</div>
+<!-- end of comments form --><div class="section-related clearfix">
+<a class="related-item movies" href="/comments/123636-ne-dvigajsja-trejler/">
+<div class="related-item-image" style="background-image: url(/newsthumbs/big/125375_2x.jpg)"> </div>
+<div class="related-item-caption"><b>Кино</b> Жертва маньяка медленно уползает от злодея в трейлере фильма «Не двигайся»</div>
+</a>
+<a class="related-item movies" href="/comments/123478-nikolas-golicyn-sygraet-kovarnogo-soblaznitelja-v-feministicheskoj-versii-tysjachi-i-odnoj-nochi/">
+<div class="related-item-image" style="background-image: url(/newsthumbs/big/125217_2x.jpg)"> </div>
+<div class="related-item-caption"><b>Кино</b> Николас Голицын сыграет коварного соблазнителя в феминистической версии «Тысячи и одной ночи»</div>
+</a>
+<a class="related-item tv" href="/comments/123128-nedelja-serialov-na-kg-glavnye-novosti-1218-avgusta/">
+<div class="related-item-image" style="background-image: url(/newsthumbs/big/124855_2x.jpg)"> </div>
+<div class="related-item-caption"><b>Сериалы</b> Неделя сериалов на КГ — главные новости 12–18 августа</div>
+</a>
+<a class="related-item" href="/comments/122648-sam-ne-pohvalish-marvel-sdelaet-varianty-oblozhek-otdajuschih-dan-klassike-v-chest-svoego-85letija/">
+<div class="related-item-image" style="background-image: url(/newsthumbs/big/124362_2x.jpg)"> </div>
+<div class="related-item-caption"><b></b> Сам не похвалишь: Marvel в честь своего 85-летия сделает варианты обложек, отдающих дань классике</div>
+</a>
+<a class="related-item tv" href="/comments/123606-dzhedaj-dzhud-lou-v-shoke-svezhie-kadry-zvezdnyh-vojn-opornoj-komandy/">
+<div class="related-item-image" style="background-image: url(/newsthumbs/big/125345_2x.jpg)"> </div>
+<div class="related-item-caption"><b>Сериалы</b> Джедай Джуд Лоу в шоке — свежие кадры «Звёздных войн: Опорной команды»</div>
+</a>
+<a class="related-item games" href="/games/warhammer40000boltgun/reviews/6413/">
+<div class="related-item-image" style="background-image: url(/newsthumbs/big/123954_2x.jpg)"> </div>
+<div class="related-item-caption"><b>Игры</b> Рецензия и отзывы на дополнение Warhammer 40,000: Boltgun — Forges of Corruption</div>
+</a></div>
+</div><!-- // div.content_main -->
+<div class="content_side">
+<div class="section_menu">
+<div class="b_burger js-toggleSidebar">
+<div class="icon"> </div>
+<div class="text short">Меню</div>
+</div>
+<a class="b_logo" href="/">
+<div class="icon"> </div>
+<div class="text short">Главная</div>
+</a>
+<div class="menu_item movies">
+<a href="/news/movies/">Кино</a>
+<div class="dropdown">
+<a href="/news/movies/">Новости</a>
+<a href="/movies/">Все фильмы</a>
+<a class="sub" href="/movies/">Популярные</a>
+<a class="sub" href="/movies/s_views/2024/">Ожидаемые</a>
+<a class="sub" href="/movies/s_rating/">Лучшие</a>
+<a class="sub" href="/movies/s_year/2022/">Фильмы 2022</a>
+<a class="sub" href="/movies/s_year/2023/">Фильмы 2023</a>
+<a class="sub" href="/movies/s_year/2024/">Фильмы 2024</a>
+<a class="sub" href="/movies/s_genre/">Жанры</a>
+<a href="/reviews/movies/">Рецензии</a>
+<a href="/trailers/movies/">Трейлеры</a>
+<a href="/podcasts/movies/">Подкасты</a>
+<a href="/releases/">Календарь премьер</a>
+<a href="/news/movies/preview/">Новое кино недели</a>
+<a href="/box/">Сборы фильмов в США</a>
+<a href="/boxrussia/">Сборы фильмов в России</a>
+<a href="/boxworld/">Международные сборы фильмов</a>
+<a href="/scripts/">Упрощённые сценарии</a>
+</div>
+</div>
+<div class="menu_item tv">
+<a href="/news/tv/">Сериалы</a>
+<div class="dropdown">
+<a href="/news/tv/">Новости</a>
+<a href="/tv/">Все сериалы</a>
+<a class="sub" href="/tv/s_year/2022/">Сериалы 2022</a>
+<a class="sub" href="/tv/s_year/2023/">Сериалы 2023</a>
+<a class="sub" href="/tv/s_year/2024/">Сериалы 2024</a>
+<a href="/reviews/tv/">Рецензии</a>
+<a href="/episodes/tv/">Эпизодники</a>
+<a href="/trailers/tv/">Трейлеры</a>
+<a href="/podcasts/tv/">Подкасты</a>
+<a href="/news/tv/preview/">Новые сериалы недели</a>
+<a href="/releases/tv/">Календарь сериалов</a>
+<!--a href="/boxtv/">Рейтинги</a-->
+</div>
+</div>
+<div class="menu_item games">
+<a href="/news/games/">Игры</a>
+<div class="dropdown">
+<a href="/news/games/">Новости</a>
+<a href="/games/">Все игры</a>
+<a href="/reviews/games/">Рецензии</a>
+<a href="/trailers/games/">Трейлеры</a>
+<a href="/podcasts/games/">Подкасты</a>
+<a href="/news/games/preview/">Новые игры месяца</a>
+<a href="/news/games/top/">Лучшие игры</a>
+</div>
+</div>
+<div class="menu_item anime">
+<a class="active" href="/news/anime/">Аниме</a>
+<div class="dropdown">
+<a href="/news/anime/">Новости</a>
+<a href="/anime/">Всё аниме</a>
+<a href="/reviews/anime/">Рецензии</a>
+<a href="/episodes/anime/">Эпизодники</a>
+<a href="/trailers/anime/">Трейлеры</a>
+<a href="/podcasts/anime/">Подкасты</a>
+<a href="/news/anime/preview/">Новое аниме сезона</a>
+<a href="/boxanime/">Продажи аниме</a>
+<a href="/news/anime/top/">Лучшее аниме</a>
+</div>
+</div>
+<div class="menu_item kpop">
+<a href="/news/kpop/">Кей-поп</a>
+<div class="dropdown">
+<a href="/news/kpop/">Новости</a>
+</div>
+</div>
+<div class="menu_item comics">
+<a href="/news/comics/">Комиксы</a>
+<div class="dropdown">
+<a href="/news/comics/">Новости</a>
+<a href="/comics/">Все комиксы</a>
+<a href="/reviews/comics/">Рецензии</a>
+</div>
+</div>
+<div class="menu_item blogs">
+<a href="/blogs/">Блоги</a>
+<div class="dropdown">
+<a href="/blogs/">Все авторы</a>
+</div>
+</div>
+<div class="menu_item">
+<a href="/podcasts/">Подкасты</a>
+<div class="dropdown">
+<a href="/comments/54803-podcasts-questions/">Вопросы для подкастов</a>
+<a href="/transcripts/">Текстовые версии</a>
+<a href="/comments/60213-podderzhite-nashi-podkasty-na-patreone/">Мы на «Патреоне»</a>
+<a class="secondary secondary-first" href="/podcasts/movies/kgpodcast/">Лазер-шоу «Три дебила»</a>
+<a class="secondary" href="/podcasts/tv/tvpodcast/">Телеовощи</a>
+<a class="secondary" href="/podcasts/games/gamingpodcast/">Ноль кадров в секунду</a>
+<a class="secondary" href="/podcasts/anime/animepodcast/">Еженедельные вопли об аниме</a>
+<a class="secondary" href="/podcasts/movies/carpodcast/">Подкаст на колёсах</a>
+<a class="secondary" href="/podcasts/movies/35minutesago/">35 минут назад</a>
+<a class="secondary secondary-last" href="/podcasts/anime/couchanime/">Диванные анимешники</a>
+<a href="/podcasts/movies/">Кино</a>
+<a href="/podcasts/tv/">Сериалы</a>
+<a href="/podcasts/games/">Игры</a>
+<a href="/podcasts/anime/">Аниме</a>
+</div>
+</div>
+<div class="menu_item">
+<a href="/news/tags/special/">Материалы</a>
+<div class="dropdown">
+<a href="/news/tags/system/pravda/">Вся правда о...</a>
+<a href="/news/tags/system/znatoki/">Слово знатокам</a>
+<a href="/news/tags/system/russianmovies/">Новости русского кино</a>
+<a href="/news/tags/system/preview/">Превью</a>
+<a href="/news/tags/system/top/">Топы</a>
+<a href="/news/tags/system/book/">Книга лучше!</a>
+<a href="/news/tags/system/hate/">Ненависть</a>
+<a href="/news/tags/system/cosplay/">Косплей</a>
+</div>
+</div>
+<div class="menu_item">
+<a href="http://www.kg-forum.ru/">Форум</a>
+</div>
+</div><div class="sidebar-social">
+<h3>Читайте и смотрите нас в соцсетях:</h3>
+<div class="array">
+<a href="https://vk.com/kgportal" style="background-color: #27ad74;" target="_blank">ВКонтакте</a>
+<a href="https://t.me/kgportal" style="background-color: #4ca4d2;" target="_blank">Телеграм</a>
+<a href="https://icq.im/kgportal" style="background-color: #299e00;" target="_blank">ICQ</a>
+<a href="https://twitter.com/kinogovno" style="background-color: #1da1f2;" target="_blank">Твиттер</a>
+</div>
+</div>
+<div class="widget_list podcasts">
+<div class="header">
+<h3>Подкасты и стримы</h3>
+</div>
+<div id="podcasts_list_all">
+<!-- SIDE PODCASTS -->
+<div class="section" id="new_podcasts">
+<h4>Новые выпуски подкастов</h4>
+<div class="item anime">
+<div class="b-expand js-expandSidebarContainer"><b> </b></div><a href="https://kg-portal.ru/comments/123718-eva600-prjamaja-transljacija/"><span class="tag">2</span>ЕВА</a><div class="container"><div class="video" id="videoside57101">
+<div class="uni_player anime"><div class="center">
+<div class="flowplayer fp-youtube fp-full fp-edgy fp-video" id="flowplayerside57101" onclick="kgplayer ('flowplayerside57101').init();">
+<div class="atlas b_youtube-play"> </div>
+<img class="splash" src="https://media.kg-portal.ru/anime/a/animepodcast/trailers/57101t.jpg?v=1727324962" srcset="https://media.kg-portal.ru/anime/a/animepodcast/trailers/57101t_2x.jpg?v=1727324962 2x, https://media.kg-portal.ru/anime/a/animepodcast/trailers/57101t.jpg?v=1727324962 1x"/>
+</div>
+<script>
+	function getYoutubeId_flowplayerside57101() {
+    	return 'RoUKjrQaSTs';
+    };
+</script></div>
+</div></div></div>
+</div>
+<div class="item tv">
+<div class="b-expand js-expandSidebarContainer"><b> </b></div><a href="https://kg-portal.ru/comments/123711-teleovoschi-vypusk-567-kombinacii-trojnichka/"><span class="tag">1</span>Телеовощи – 567: Комбинации тройничка</a><div class="container"><div class="video" id="videoside57093">
+<div class="uni_player tv"><div class="center">
+<div class="tabs">
+<ul class="nosel">
+<li class="tab media_type audio active js-videoMediaType">
+<a href="javascript:void(0)" onclick="change_video(57093, 57094, 0, 'tvpodcast', 'side')"><span> </span><u>Аудио</u></a>
+</li>
+<li class="tab media_type video js-videoMediaType">
+<a href="javascript:void(0)" onclick="change_video(57093, 57094, 0, 'tvpodcast', 'side')"><span> </span><u>Видео</u></a>
+</li>
+</ul>
+</div>
+<div class="flowplayer fp-full fp-edgy fp-mute" id="flowplayerside57093">
+<img class="splash" src="https://media.kg-portal.ru/tv/t/tvpodcast/trailers/57093t.jpg" srcset="https://media.kg-portal.ru/tv/t/tvpodcast/trailers/57093t_2x.jpg 2x, https://media.kg-portal.ru/tv/t/tvpodcast/trailers/57093t.jpg 1x"/>
+</div>
+<script>
+
+            flowplayer("#flowplayerside57093", {
+			clip: {
+				vodQualities: {
+					qualities: [{src: "https://media.kg-portal.ru/tv/t/tvpodcast/trailers/tvpodcast_part567_578212.mp3", label: "360p SD", px: 360}]
+				},
+			sources: [
+					{type: "audio/mpeg", src: "https://media.kg-portal.ru/tv/t/tvpodcast/trailers/tvpodcast_part567_578212.mp3"}
+				]
+			},
+			share: true,
+			autoplay: false,
+			ratio: 0.56216216216216,
+			key: "$629025437912710",
+			splash: "https://media.kg-portal.ru/tv/t/tvpodcast/trailers/57093t.jpg",
+			twitter: {
+				url: "https://kg-portal.ru/comments/123711-teleovoschi-vypusk-567-kombinacii-trojnichka/",
+				text: "Телеовощи. Выпуск 567: Комбинации тройничка"
+			},
+			videoid: 57093,
+			facebook: "https://kg-portal.ru/comments/123711-teleovoschi-vypusk-567-kombinacii-trojnichka/",
+			pageurl: "https://kg-portal.ru/comments/123711-teleovoschi-vypusk-567-kombinacii-trojnichka/",
+			embed: false,
+			vk: "https://kg-portal.ru/comments/123711-teleovoschi-vypusk-567-kombinacii-trojnichka/"
+		});
+		</script></div>
+</div></div></div>
+</div>
+<div class="item games">
+<div class="b-expand js-expandSidebarContainer"><b> </b></div><a href="https://kg-portal.ru/comments/123678-nol-kadrov-vsekundu-vypusk-545-kak-vlozhit-sto-millionov/"><span class="tag">0</span>Ноль кадров в секунду – 545: Как вложить сто миллионов</a><div class="container"><div class="video" id="videoside57083">
+<div class="uni_player games"><div class="center">
+<div class="tabs">
+<ul class="nosel">
+<li class="tab media_type audio js-videoMediaType">
+<a href="javascript:void(0)" onclick="change_video(57083, 57127, 0, 'gamingpodcastvideo', 'side')"><span> </span><u>Аудио</u></a>
+</li>
+<li class="tab media_type video active js-videoMediaType">
+<a href="javascript:void(0)" onclick="change_video(57083, 57127, 0, 'gamingpodcastvideo', 'side')"><span> </span><u>Видео</u></a>
+</li>
+</ul>
+</div>
+<div class="flowplayer fp-full fp-edgy fp-mute fp-video" id="flowplayerside57083">
+<img class="splash" src="https://media.kg-portal.ru/games/g/gamingpodcastvideo/trailers/57083t.jpg" srcset="https://media.kg-portal.ru/games/g/gamingpodcastvideo/trailers/57083t_2x.jpg 2x, https://media.kg-portal.ru/games/g/gamingpodcastvideo/trailers/57083t.jpg 1x"/>
+</div>
+<script>
+
+            flowplayer("#flowplayerside57083", {
+			clip: {
+				vodQualities: {
+					qualities: [{src: "https://media.kg-portal.ru/games/g/gamingpodcastvideo/trailers/gamingpodcast_video545.mp4", label: "720p HD", px: 720}]
+				},
+			sources: [
+					{type: "video/mp4", src: "https://media.kg-portal.ru/games/g/gamingpodcastvideo/trailers/gamingpodcast_video545.mp4"}
+				]
+			},
+			share: true,
+			autoplay: false,
+			ratio: 0.56216216216216,
+			key: "$629025437912710",
+			splash: "https://media.kg-portal.ru/games/g/gamingpodcastvideo/trailers/57083t.jpg",
+			twitter: {
+				url: "https://kg-portal.ru/comments/123678-nol-kadrov-vsekundu-vypusk-545-kak-vlozhit-sto-millionov/",
+				text: "Ноль кадров в секунду. Выпуск 545: Как вложить сто миллионов"
+			},
+			videoid: 57083,
+			facebook: "https://kg-portal.ru/comments/123678-nol-kadrov-vsekundu-vypusk-545-kak-vlozhit-sto-millionov/",
+			pageurl: "https://kg-portal.ru/comments/123678-nol-kadrov-vsekundu-vypusk-545-kak-vlozhit-sto-millionov/",
+			embed: false,
+			vk: "https://kg-portal.ru/comments/123678-nol-kadrov-vsekundu-vypusk-545-kak-vlozhit-sto-millionov/"
+		});
+		</script></div>
+</div></div></div>
+</div>
+<div class="item movies">
+<div class="b-expand js-expandSidebarContainer"><b> </b></div><a href="https://kg-portal.ru/comments/123638-lazershou-tri-debila-vypusk-638-bitldzhus-bitldzhus-megan-k-vashim-uslugam-voditeloligarh-biopik-o-gruppe-kiss/"><span class="tag">3</span>Лазер-шоу «Три дебила» – 638: «Битлджус Битлджус», «Меган: К вашим услугам», «Водитель-олигарх», биопик о группе KISS</a><div class="container"><div class="video" id="videoside57071">
+<div class="uni_player movies"><div class="center">
+<div class="tabs">
+<ul class="nosel">
+<li class="tab media_type audio active js-videoMediaType">
+<a href="javascript:void(0)" onclick="change_video(57071, 57072, 0, 'kgpodcast', 'side')"><span> </span><u>Аудио</u></a>
+</li>
+<li class="tab media_type video js-videoMediaType">
+<a href="javascript:void(0)" onclick="change_video(57071, 57072, 0, 'kgpodcast', 'side')"><span> </span><u>Видео</u></a>
+</li>
+</ul>
+</div>
+<div class="flowplayer fp-full fp-edgy fp-mute" id="flowplayerside57071">
+<img class="splash" src="https://media.kg-portal.ru/movies/k/kgpodcast/trailers/57071t.jpg" srcset="https://media.kg-portal.ru/movies/k/kgpodcast/trailers/57071t_2x.jpg 2x, https://media.kg-portal.ru/movies/k/kgpodcast/trailers/57071t.jpg 1x"/>
+</div>
+<script>
+
+            flowplayer("#flowplayerside57071", {
+			clip: {
+				vodQualities: {
+					qualities: [{src: "https://media.kg-portal.ru/movies/k/kgpodcast/trailers/kgaudiopodcast_part638_511083.mp3", label: "360p SD", px: 360}]
+				},
+			sources: [
+					{type: "audio/mpeg", src: "https://media.kg-portal.ru/movies/k/kgpodcast/trailers/kgaudiopodcast_part638_511083.mp3"}
+				]
+			},
+			share: true,
+			autoplay: false,
+			ratio: 0.56216216216216,
+			key: "$629025437912710",
+			splash: "https://media.kg-portal.ru/movies/k/kgpodcast/trailers/57071t.jpg",
+			twitter: {
+				url: "https://kg-portal.ru/comments/123638-lazershou-tri-debila-vypusk-638-bitldzhus-bitldzhus-megan-k-vashim-uslugam-voditeloligarh-biopik-o-gruppe-kiss/",
+				text: "Лазер-шоу «Три дебила». Выпуск 638: «Битлджус Битлджус», «Меган: К вашим услугам», «Водитель-олигарх», биопик о группе KISS"
+			},
+			videoid: 57071,
+			facebook: "https://kg-portal.ru/comments/123638-lazershou-tri-debila-vypusk-638-bitldzhus-bitldzhus-megan-k-vashim-uslugam-voditeloligarh-biopik-o-gruppe-kiss/",
+			pageurl: "https://kg-portal.ru/comments/123638-lazershou-tri-debila-vypusk-638-bitldzhus-bitldzhus-megan-k-vashim-uslugam-voditeloligarh-biopik-o-gruppe-kiss/",
+			embed: false,
+			vk: "https://kg-portal.ru/comments/123638-lazershou-tri-debila-vypusk-638-bitldzhus-bitldzhus-megan-k-vashim-uslugam-voditeloligarh-biopik-o-gruppe-kiss/"
+		});
+		</script></div>
+</div></div></div>
+</div>
+<div class="item anime">
+<div class="b-expand js-expandSidebarContainer"><b> </b></div><a href="https://kg-portal.ru/comments/123582-eva599-pervoe-pravilo-olenego-kluba/"><span class="tag">3</span>ЕВА – 599: Первое правило оленьего клуба</a><div class="container"><div class="video" id="videoside57048">
+<div class="uni_player anime"><div class="center">
+<div class="flowplayer fp-full fp-edgy fp-mute" id="flowplayerside57048">
+<img class="splash" src="https://media.kg-portal.ru/anime/a/animepodcast/trailers/57048t.jpg" srcset="https://media.kg-portal.ru/anime/a/animepodcast/trailers/57048t_2x.jpg 2x, https://media.kg-portal.ru/anime/a/animepodcast/trailers/57048t.jpg 1x"/>
+</div>
+<script>
+
+            flowplayer("#flowplayerside57048", {
+			clip: {
+				vodQualities: {
+					qualities: [{src: "https://media.kg-portal.ru/anime/a/animepodcast/trailers/animepodcast_audio599.mp3", label: "360p SD", px: 360}]
+				},
+			sources: [
+					{type: "audio/mpeg", src: "https://media.kg-portal.ru/anime/a/animepodcast/trailers/animepodcast_audio599.mp3"}
+				]
+			},
+			share: true,
+			autoplay: false,
+			ratio: 0.56216216216216,
+			key: "$629025437912710",
+			splash: "https://media.kg-portal.ru/anime/a/animepodcast/trailers/57048t.jpg",
+			twitter: {
+				url: "https://kg-portal.ru/comments/123582-eva599-pervoe-pravilo-olenego-kluba/",
+				text: "ЕВА-599: Первое правило оленьего клуба"
+			},
+			videoid: 57048,
+			facebook: "https://kg-portal.ru/comments/123582-eva599-pervoe-pravilo-olenego-kluba/",
+			pageurl: "https://kg-portal.ru/comments/123582-eva599-pervoe-pravilo-olenego-kluba/",
+			embed: false,
+			vk: "https://kg-portal.ru/comments/123582-eva599-pervoe-pravilo-olenego-kluba/"
+		});
+		</script></div>
+</div></div></div>
+</div>
+<div class="item tv">
+<div class="b-expand js-expandSidebarContainer"><b> </b></div><a href="https://kg-portal.ru/comments/123581-teleovoschi-vypusk-566-ublazhajuschij-otca/"><span class="tag">2</span>Телеовощи – 566: Ублажающий отца</a><div class="container"><div class="video" id="videoside57044">
+<div class="uni_player tv"><div class="center">
+<div class="tabs">
+<ul class="nosel">
+<li class="tab media_type audio active js-videoMediaType">
+<a href="javascript:void(0)" onclick="change_video(57044, 57045, 0, 'tvpodcast', 'side')"><span> </span><u>Аудио</u></a>
+</li>
+<li class="tab media_type video js-videoMediaType">
+<a href="javascript:void(0)" onclick="change_video(57044, 57045, 0, 'tvpodcast', 'side')"><span> </span><u>Видео</u></a>
+</li>
+</ul>
+</div>
+<div class="flowplayer fp-full fp-edgy fp-mute" id="flowplayerside57044">
+<img class="splash" src="https://media.kg-portal.ru/tv/t/tvpodcast/trailers/57044t.jpg" srcset="https://media.kg-portal.ru/tv/t/tvpodcast/trailers/57044t_2x.jpg 2x, https://media.kg-portal.ru/tv/t/tvpodcast/trailers/57044t.jpg 1x"/>
+</div>
+<script>
+
+            flowplayer("#flowplayerside57044", {
+			clip: {
+				vodQualities: {
+					qualities: [{src: "https://media.kg-portal.ru/tv/t/tvpodcast/trailers/tvpodcast_part566_865962.mp3", label: "360p SD", px: 360}]
+				},
+			sources: [
+					{type: "audio/mpeg", src: "https://media.kg-portal.ru/tv/t/tvpodcast/trailers/tvpodcast_part566_865962.mp3"}
+				]
+			},
+			share: true,
+			autoplay: false,
+			ratio: 0.56216216216216,
+			key: "$629025437912710",
+			splash: "https://media.kg-portal.ru/tv/t/tvpodcast/trailers/57044t.jpg",
+			twitter: {
+				url: "https://kg-portal.ru/comments/123581-teleovoschi-vypusk-566-ublazhajuschij-otca/",
+				text: "Телеовощи. Выпуск 566: Ублажающий отца"
+			},
+			videoid: 57044,
+			facebook: "https://kg-portal.ru/comments/123581-teleovoschi-vypusk-566-ublazhajuschij-otca/",
+			pageurl: "https://kg-portal.ru/comments/123581-teleovoschi-vypusk-566-ublazhajuschij-otca/",
+			embed: false,
+			vk: "https://kg-portal.ru/comments/123581-teleovoschi-vypusk-566-ublazhajuschij-otca/"
+		});
+		</script></div>
+</div></div></div>
+</div>
+<div class="item games">
+<div class="b-expand js-expandSidebarContainer"><b> </b></div><a href="https://kg-portal.ru/comments/123557-nol-kadrov-v-sekundu-vypusk-544-suhie-tekstury/"><span class="tag">2</span>Ноль кадров в секунду – 544: Сухие текстуры</a><div class="container"><div class="video" id="videoside57036">
+<div class="uni_player games"><div class="center">
+<div class="tabs">
+<ul class="nosel">
+<li class="tab media_type audio active js-videoMediaType">
+<a href="javascript:void(0)" onclick="change_video(57036, 57065, 0, 'gamingpodcast', 'side')"><span> </span><u>Аудио</u></a>
+</li>
+<li class="tab media_type video js-videoMediaType">
+<a href="javascript:void(0)" onclick="change_video(57036, 57065, 0, 'gamingpodcast', 'side')"><span> </span><u>Видео</u></a>
+</li>
+</ul>
+</div>
+<div class="flowplayer fp-full fp-edgy fp-mute" id="flowplayerside57036">
+<img class="splash" src="https://media.kg-portal.ru/games/g/gamingpodcast/trailers/57036t.jpg" srcset="https://media.kg-portal.ru/games/g/gamingpodcast/trailers/57036t_2x.jpg 2x, https://media.kg-portal.ru/games/g/gamingpodcast/trailers/57036t.jpg 1x"/>
+</div>
+<script>
+
+            flowplayer("#flowplayerside57036", {
+			clip: {
+				vodQualities: {
+					qualities: [{src: "https://media.kg-portal.ru/games/g/gamingpodcast/trailers/gamingpodcast_audio544.mp3", label: "360p SD", px: 360}]
+				},
+			sources: [
+					{type: "audio/mpeg", src: "https://media.kg-portal.ru/games/g/gamingpodcast/trailers/gamingpodcast_audio544.mp3"}
+				]
+			},
+			share: true,
+			autoplay: false,
+			ratio: 0.56216216216216,
+			key: "$629025437912710",
+			splash: "https://media.kg-portal.ru/games/g/gamingpodcast/trailers/57036t.jpg",
+			twitter: {
+				url: "https://kg-portal.ru/comments/123557-nol-kadrov-v-sekundu-vypusk-544-suhie-tekstury/",
+				text: "Ноль кадров в секунду. Выпуск 544: Сухие текстуры"
+			},
+			videoid: 57036,
+			facebook: "https://kg-portal.ru/comments/123557-nol-kadrov-v-sekundu-vypusk-544-suhie-tekstury/",
+			pageurl: "https://kg-portal.ru/comments/123557-nol-kadrov-v-sekundu-vypusk-544-suhie-tekstury/",
+			embed: false,
+			vk: "https://kg-portal.ru/comments/123557-nol-kadrov-v-sekundu-vypusk-544-suhie-tekstury/"
+		});
+		</script></div>
+</div></div></div>
+</div>
+<div class="item movies">
+<div class="b-expand js-expandSidebarContainer"><b> </b></div><a href="https://kg-portal.ru/comments/123522-lazershou-tri-debila-vypusk-637-dipfejki-dlja-vlastelina-kolec-kukushka-triller-ot-netflix-sbory-bitldzhusa-2/"><span class="tag">6</span>Лазер-шоу «Три дебила» – 637: Дипфейки для «Властелина колец», «Кукушка», триллер от Netflix, сборы «Битлджуса 2»</a><div class="container"><div class="video" id="videoside57022">
+<div class="uni_player movies"><div class="center">
+<div class="tabs">
+<ul class="nosel">
+<li class="tab media_type audio active js-videoMediaType">
+<a href="javascript:void(0)" onclick="change_video(57022, 57023, 0, 'kgpodcast', 'side')"><span> </span><u>Аудио</u></a>
+</li>
+<li class="tab media_type video js-videoMediaType">
+<a href="javascript:void(0)" onclick="change_video(57022, 57023, 0, 'kgpodcast', 'side')"><span> </span><u>Видео</u></a>
+</li>
+</ul>
+</div>
+<div class="flowplayer fp-full fp-edgy fp-mute" id="flowplayerside57022">
+<img class="splash" src="https://media.kg-portal.ru/movies/k/kgpodcast/trailers/57022t.jpg" srcset="https://media.kg-portal.ru/movies/k/kgpodcast/trailers/57022t_2x.jpg 2x, https://media.kg-portal.ru/movies/k/kgpodcast/trailers/57022t.jpg 1x"/>
+</div>
+<script>
+
+            flowplayer("#flowplayerside57022", {
+			clip: {
+				vodQualities: {
+					qualities: [{src: "https://media.kg-portal.ru/movies/k/kgpodcast/trailers/kgaudiopodcast_part637_963094.mp3", label: "360p SD", px: 360}]
+				},
+			sources: [
+					{type: "audio/mpeg", src: "https://media.kg-portal.ru/movies/k/kgpodcast/trailers/kgaudiopodcast_part637_963094.mp3"}
+				]
+			},
+			share: true,
+			autoplay: false,
+			ratio: 0.56216216216216,
+			key: "$629025437912710",
+			splash: "https://media.kg-portal.ru/movies/k/kgpodcast/trailers/57022t.jpg",
+			twitter: {
+				url: "https://kg-portal.ru/comments/123522-lazershou-tri-debila-vypusk-637-dipfejki-dlja-vlastelina-kolec-kukushka-triller-ot-netflix-sbory-bitldzhusa-2/",
+				text: "Лазер-шоу «Три дебила». Выпуск 637: Дипфейки для «Властелина колец», «Кукушка», триллер от Netflix, сборы «Битлджуса 2»"
+			},
+			videoid: 57022,
+			facebook: "https://kg-portal.ru/comments/123522-lazershou-tri-debila-vypusk-637-dipfejki-dlja-vlastelina-kolec-kukushka-triller-ot-netflix-sbory-bitldzhusa-2/",
+			pageurl: "https://kg-portal.ru/comments/123522-lazershou-tri-debila-vypusk-637-dipfejki-dlja-vlastelina-kolec-kukushka-triller-ot-netflix-sbory-bitldzhusa-2/",
+			embed: false,
+			vk: "https://kg-portal.ru/comments/123522-lazershou-tri-debila-vypusk-637-dipfejki-dlja-vlastelina-kolec-kukushka-triller-ot-netflix-sbory-bitldzhusa-2/"
+		});
+		</script></div>
+</div></div></div>
+</div>
+<div class="item anime">
+<div class="b-expand js-expandSidebarContainer"><b> </b></div><a href="https://kg-portal.ru/comments/123477-eva598-eskalacija-v-zhopu/"><span class="tag">8</span>ЕВА – 598: Эскалация в зад</a><div class="container"><div class="video" id="videoside57006">
+<div class="uni_player anime"><div class="center">
+<div class="flowplayer fp-full fp-edgy fp-mute" id="flowplayerside57006">
+<img class="splash" src="https://media.kg-portal.ru/anime/a/animepodcast/trailers/57006t.jpg" srcset="https://media.kg-portal.ru/anime/a/animepodcast/trailers/57006t_2x.jpg 2x, https://media.kg-portal.ru/anime/a/animepodcast/trailers/57006t.jpg 1x"/>
+</div>
+<script>
+
+            flowplayer("#flowplayerside57006", {
+			clip: {
+				vodQualities: {
+					qualities: [{src: "https://media.kg-portal.ru/anime/a/animepodcast/trailers/animepodcast_audio598.mp3", label: "360p SD", px: 360}]
+				},
+			sources: [
+					{type: "audio/mpeg", src: "https://media.kg-portal.ru/anime/a/animepodcast/trailers/animepodcast_audio598.mp3"}
+				]
+			},
+			share: true,
+			autoplay: false,
+			ratio: 0.56216216216216,
+			key: "$629025437912710",
+			splash: "https://media.kg-portal.ru/anime/a/animepodcast/trailers/57006t.jpg",
+			twitter: {
+				url: "https://kg-portal.ru/comments/123477-eva598-eskalacija-v-zhopu/",
+				text: "ЕВА-598: Эскалация в жопу"
+			},
+			videoid: 57006,
+			facebook: "https://kg-portal.ru/comments/123477-eva598-eskalacija-v-zhopu/",
+			pageurl: "https://kg-portal.ru/comments/123477-eva598-eskalacija-v-zhopu/",
+			embed: false,
+			vk: "https://kg-portal.ru/comments/123477-eva598-eskalacija-v-zhopu/"
+		});
+		</script></div>
+</div></div></div>
+</div>
+<div class="item tv">
+<div class="b-expand js-expandSidebarContainer"><b> </b></div><a href="https://kg-portal.ru/comments/123475-teleovoschi-vypusk-565-planeta-gengbengov/"><span class="tag">2</span>Телеовощи – 565: Планета гэнг-бэнгов</a><div class="container"><div class="video" id="videoside57004">
+<div class="uni_player tv"><div class="center">
+<div class="tabs">
+<ul class="nosel">
+<li class="tab media_type audio active js-videoMediaType">
+<a href="javascript:void(0)" onclick="change_video(57004, 57005, 0, 'tvpodcast', 'side')"><span> </span><u>Аудио</u></a>
+</li>
+<li class="tab media_type video js-videoMediaType">
+<a href="javascript:void(0)" onclick="change_video(57004, 57005, 0, 'tvpodcast', 'side')"><span> </span><u>Видео</u></a>
+</li>
+</ul>
+</div>
+<div class="flowplayer fp-full fp-edgy fp-mute" id="flowplayerside57004">
+<img class="splash" src="https://media.kg-portal.ru/tv/t/tvpodcast/trailers/57004t.jpg" srcset="https://media.kg-portal.ru/tv/t/tvpodcast/trailers/57004t_2x.jpg 2x, https://media.kg-portal.ru/tv/t/tvpodcast/trailers/57004t.jpg 1x"/>
+</div>
+<script>
+
+            flowplayer("#flowplayerside57004", {
+			clip: {
+				vodQualities: {
+					qualities: [{src: "https://media.kg-portal.ru/tv/t/tvpodcast/trailers/tvpodcast_part565_522338.mp3", label: "360p SD", px: 360}]
+				},
+			sources: [
+					{type: "audio/mpeg", src: "https://media.kg-portal.ru/tv/t/tvpodcast/trailers/tvpodcast_part565_522338.mp3"}
+				]
+			},
+			share: true,
+			autoplay: false,
+			ratio: 0.56216216216216,
+			key: "$629025437912710",
+			splash: "https://media.kg-portal.ru/tv/t/tvpodcast/trailers/57004t.jpg",
+			twitter: {
+				url: "https://kg-portal.ru/comments/123475-teleovoschi-vypusk-565-planeta-gengbengov/",
+				text: "Телеовощи. Выпуск 565: Планета гэнг-бэнгов"
+			},
+			videoid: 57004,
+			facebook: "https://kg-portal.ru/comments/123475-teleovoschi-vypusk-565-planeta-gengbengov/",
+			pageurl: "https://kg-portal.ru/comments/123475-teleovoschi-vypusk-565-planeta-gengbengov/",
+			embed: false,
+			vk: "https://kg-portal.ru/comments/123475-teleovoschi-vypusk-565-planeta-gengbengov/"
+		});
+		</script></div>
+</div></div></div>
+</div>
+</div>
+<div class="b-more" data-next="10" id="side_podcasts_more" onclick="side_podcasts_add(10)">Ещё</div>
+<script>
+function attachSidebarContainerExpandEventListeners() {
+  var key = 'onExpandAttached';
+  var $containers = $('.js-expandSidebarContainer').filter(function () {
+    return $(this).data(key) !== true;
+  });
+
+  $containers.click(onSidebarContainerExpand);
+  $containers.data(key, true);
+}
+
+function onSidebarContainerExpand() {
+  var activeClassName = 'active';
+  var $item = $(this).closest('.item');
+  var isActive = $item.hasClass(activeClassName);
+
+  $item.toggleClass(activeClassName);
+
+  if (!isActive) {
+    return;
+  }
+
+  var flowplayer = findFlowplayer($item);
+
+  if (!flowplayer) {
+    return;
+  }
+
+  flowplayer.pause();
+
+  function findFlowplayer($item) {
+    var flowplayer = $item.find('.flowplayer')[0];
+
+    if (!flowplayer) {
+      return null;
+    }
+
+    return kgplayer(flowplayer.id);
+  }
+}
+
+function side_podcasts_add(add) {
+
+  next = $('#side_podcasts_more').data('next');
+  $('#side_podcasts_more').data('next', next + add);
+
+  $.ajax({
+    url: '/useractions.php', data: ({
+      'action': 'side_podcasts_add',
+      'next': next
+    }), dataType: 'json', type: 'POST'
+  }).done(function (data) {
+    if (data['status'] == 'success') {
+      $('#new_podcasts').append(data['text']);
+      if (next >= 40)
+        $('#side_podcasts_more').remove();
+
+      attachSidebarContainerExpandEventListeners();
+
+      console.log('success');
+    } else {
+      console.log('fail');
+    }
+  }).fail(function () { console.log('Ошибка вызова функции'); });
+
+}
+
+attachSidebarContainerExpandEventListeners();
+</script>
+<!-- /SIDE PODCASTS -->
+</div><div class="hidden" id="podcasts_list_movies"></div><div class="hidden" id="podcasts_list_tv"></div><div class="hidden" id="podcasts_list_games"></div><div class="hidden" id="podcasts_list_anime"></div>
+</div><div class="kg_promo"><a href="https://boosty.to/lasershow" target="_blank"><img class="header" src="/special/donate/boosty_side.png" srcset="/special/donate/boosty_side.png 1x, /special/donate/boosty_side_2x.png 2x"/></a></div>
+<!-- include/column_listing -->
+<div class="blist redesign_border" id="column_reviews">
+<h2 class="column_header">Последние рецензии</h2><div class="column_list" id="reviews_all"><span class="column_dashed" id="reviews_header_all" onclick="change_list ('reviews', 'all');">Все</span> <span class="column_selected" id="reviews_header_movies" onclick="change_list ('reviews', 'movies');">Кино</span> <span class="column_dashed" id="reviews_header_tv" onclick="change_list ('reviews', 'tv');">Сериалы</span> <span class="column_dashed" id="reviews_header_games" onclick="change_list ('reviews', 'games');">Игры</span> <span class="column_dashed" id="reviews_header_anime" onclick="change_list ('reviews', 'anime');">Аниме</span> <span class="column_dashed" id="reviews_header_comics" onclick="change_list ('reviews', 'comics');">Комиксы</span> </div><div class="hidden" id="reviews_list_all"></div><div id="reviews_list_movies"><ul>
+<li> <span class="counter">31</span><a href="/movies/alien9/reviews/6439/">Чужой: Ромул</a></li>
+<li> <span class="counter">25</span><a href="/movies/crownew/reviews/6435/">Ворон</a></li>
+<li> <span class="counter">13</span><a href="/movies/borderlands/reviews/6433/">Бордерлендс</a></li>
+<li> <span class="counter">23</span><a href="/movies/quietplace2023/reviews/6427/">Тихое место: День Первый</a></li>
+<li> <span class="counter">36</span><a href="/movies/deadpool3/reviews/6425/">Дэдпул и Росомаха</a></li>
+<li> <span class="counter">11</span><a href="/movies/longlegs/reviews/6424/">Собиратель душ</a></li>
+<li> <span class="counter">41</span><a href="/movies/stolettomuvpered/reviews/6419/">Сто лет тому вперёд</a></li>
+<li> <span class="counter">16</span><a href="/movies/latenightwiththedevil/reviews/6411/">Полночь с дьяволом</a></li>
+<li> <span class="counter">47</span><a href="/movies/majorgromigra/reviews/6407/">Майор Гром: Игра</a></li>
+<li> <span class="counter">38</span><a href="/movies/madmaxfuriosa/reviews/6405/">Фуриоса: Хроники Безумного Макса</a></li>
+<li> <span class="counter">39</span><a href="/movies/ministryofungentlemanlywarfare/reviews/6402/">Министерство неджентльменских дел</a></li>
+<li> <span class="counter">29</span><a href="/movies/godzillaminusone/reviews/6393/">Годзилла: Минус один</a></li>
+<li> <span class="counter">14</span><a href="/movies/civilwar/reviews/6389/">Падение империи</a></li>
+<li> <span class="counter">25</span><a href="/movies/roadhouse/reviews/6379/">Дом у дороги</a></li>
+<li> <span class="counter">21</span><a href="/movies/poorthings/reviews/6363/">Бедные-несчастные</a></li></ul></div><div class="hidden" id="reviews_list_tv"></div><div class="hidden" id="reviews_list_games"></div><div class="hidden" id="reviews_list_anime"></div><div class="hidden" id="reviews_list_comics"></div>
+</div>
+<!-- // include/column_listing -->
+<!-- include/column_listing -->
+<div class="blist redesign_border" id="column_topnews">
+<h2 class="column_header">Самое обсуждаемое за неделю</h2><div class="column_list" id="topnews_all"><span class="column_selected" id="topnews_header_all" onclick="change_list ('topnews', 'all');">Все</span> <span class="column_dashed" id="topnews_header_movies" onclick="change_list ('topnews', 'movies');">Кино</span> <span class="column_dashed" id="topnews_header_tv" onclick="change_list ('topnews', 'tv');">Сериалы</span> <span class="column_dashed" id="topnews_header_games" onclick="change_list ('topnews', 'games');">Игры</span> <span class="column_dashed" id="topnews_header_anime" onclick="change_list ('topnews', 'anime');">Аниме</span> <span class="column_dashed" id="topnews_header_comics" onclick="change_list ('topnews', 'comics');">Комиксы</span> </div><div id="topnews_list_all">
+<!-- include/topnews_ajax -->
+<ul><li><span class="counter">48</span><a href="/comments/123696-gromoverzhcy-tizertrejler/">Первый взгляд на «Громовержцев» в действии — вышел тизер-трейлер боевика Marvel</a></li><li><span class="counter">43</span><a href="/comments/123632-eto-ne-prosto-plan-novyj-terminator-dzhejmsa-kemerona-izbavitsja-ot-40letnego-gruza-predyduschih-filmov/">Это не просто план! Новый «Терминатор» Джеймса Кэмерона избавится от 40-летнего груза предыдущих фильмов</a></li><li><span class="counter">38</span><a href="/comments/123634-saga-o-hranitele-mechej-nika-perumova-stanet-igroj-i-serialom/">Сага о Хранителе Мечей Ника Перумова станет игрой и сериалом</a></li><li><span class="counter">36</span><a href="/comments/123706-terminator-temnye-sudby-snjali-dlja-invalidov-i-marazmatikov-no-dzhejms-kemeron-vseravno-im-gorditsja/">«Терминатор: Тёмные судьбы» сняли для инвалидов и маразматиков, но Джеймс Кэмерон всё равно им гордится</a></li><li><span class="counter">30</span><a href="/comments/123660-dzhejms-kemeron-vertel-eti-vashi-dialogi-pokazhite-mne-vashi-tri-iz-chetyreh-samyh-kassovyh-filmov/">Джеймс Кэмерон вертел эти ваши диалоги: «Покажите мне три из четырёх самых кассовых фильмов»</a></li><li><span class="counter">28</span><a href="/comments/123723-ostavte-garri-pottera-v-pokoe-syn-dambldora-raskritikoval-buduschij-serial/">Оставьте «Гарри Поттера» в покое! Сын Дамблдора раскритиковал будущий сериал</a></li><li><span class="counter">23</span><a href="/comments/123701-valja-i-tula-harkonnen-na-svezhih-kadrah-djuny-prorochestva/">Валя и Тула Харконнен на свежих кадрах «Дюны: Пророчества»</a></li><li><span class="counter">22</span><a href="/comments/123714-chernaja-kanarejka-trejler/">Суперагент Кейт Бекинсейл спасает своего мужа Руперта Френда в трейлере боевика «Досье: „Чёрная канарейка“»</a></li><li><span class="counter">22</span><a href="/comments/123730-ghost-of-ytei-trejler/">Ghost of Yōtei — новая героиня продолжит дело Призрака Цусимы</a></li><li><span class="counter">20</span><a href="/comments/123689-skala-i-kapitan-amerika-spasajut-santu-v-novom-trejlere-rozhdestvenskogo-filma-krasnyj/">Скала и Капитан Америка спасают Санту в новом трейлере рождественского фильма «Красный»</a></li>
+</ul>
+<!-- // include/topnews_ajax -->
+</div><div class="hidden" id="topnews_list_movies"></div><div class="hidden" id="topnews_list_tv"></div><div class="hidden" id="topnews_list_games"></div><div class="hidden" id="topnews_list_anime"></div><div class="hidden" id="topnews_list_comics"></div>
+</div>
+<!-- // include/column_listing -->
+<!-- include/column_listing -->
+<div class="blist redesign_border" id="column_sitelastcomments">
+<h2 class="column_header">Новые комментарии</h2><div id="sitelastcomments_list_all"><div class="sitelastcomments_list_all"><ul><li>Imperator_kazak, <small class="nobr">8 минут назад</small><br/><span class="counter">28</span><a class="link_column" href="/comments/123723-ostavte-garri-pottera-v-pokoe-syn-dambldora-raskritikoval-buduschij-serial/p_2/#comment_1807121">Оставьте «Гарри Поттера» в покое! Сын Дамблдора раскритиковал будущий сериал</a></li><li>nhb, <small class="nobr">1 час назад</small><br/><span class="counter">6</span><a class="link_column" href="/comments/123655-transformery-nachalo-bodro-nachali-prokat-bitldzhus-bitldzhus-v-opasnosti/#comment_1807117">«Трансформеры: Начало» бодро начали прокат — «Битлджус, Битлджус» в опасности</a></li><li>Вадим Тишкин, <small class="nobr">1 час назад</small><br/><span class="counter">3</span><a class="link_column" href="/comments/123739-balerina-anons-trejlera/#comment_1807116">Боевая «Балерина» с Аной де Армас поразит завтра первым трейлером</a></li><li>Семен Сибирцев, <small class="nobr">1 час назад</small><br/><span class="counter">9</span><a class="link_column" href="/comments/123736-odinokie-volki-finalnyj-trejler/#comment_1807115">Мощные волчары Брэд Питт и Джордж Клуни в финальном трейлере фильма «Одинокие волки»</a></li><li>Иван Демидов, <small class="nobr">2 часа назад</small><br/><span class="counter">5</span><a class="link_column" href="/comments/123741-vyshel-novyj-otryvok-seriala-poslednij-bogatyr-nasledie/#comment_1807113">Вышел новый ролик к сериалу «Последний богатырь. Наследие»</a></li><li>Виталий Чухнов, <small class="nobr">3 часа назад</small><br/><span class="counter">4</span><a class="link_column" href="/comments/123743-uensdej-za-kadrom-vtorogo-sezona/#comment_1807110">Крипота и милота за кадром второго сезона «Уэнсдэй»</a></li><li>Лев Гринберг, <small class="nobr">4 часа назад</small><br/><span class="counter">7</span><a class="link_column" href="/comments/123716-v-set-uplyl-trejler-legacy-of-kain-soul-reaver-i-ii-remastered/#comment_1807107">В сеть уплыл трейлер Legacy of Kain: Soul Reaver I &amp; II Remastered</a></li><li>Grrrey, <small class="nobr">4 часа назад</small><br/><span class="counter">17</span><a class="link_column" href="/comments/123734-u-hellboja-prokljatija-gorbuna-dazhe-ne-poluchitsja-pochelovecheski-provalitsja-v-prokate/#comment_1807096">У «Хеллбоя: Проклятия Горбуна» даже не получится по-человечески провалиться в прокате</a></li><li>Dmitri Gorelov, <small class="nobr">4 часа назад</small><br/><span class="counter">6</span><a class="link_column" href="/comments/123732-horoshij-film-za-mnogie-gody-ot-kevina-smita-skoro-vyhodit-v-cifre/#comment_1807080">Хороший за многие годы фильм от Кевина Смита скоро выходит в цифре</a></li><li>Arisugava, <small class="nobr">6 часов назад</small><br/><span class="counter">5</span><a class="link_column" href="/comments/123744-ljusi-lju-doprashivaet-krisa-evansa-na-svezhih-kadrah-ekshenkomedii-krasnyj/#comment_1807103">Люси Лью допрашивает Криса Эванса на свежих кадрах экшен-комедии «Красный»</a></li><li>Val Smith, <small class="nobr">8 часов назад</small><br/><span class="counter">13</span><a class="link_column" href="/comments/123729-rossijskaja-aktrisa-i-model-sygraet-vo-vtorom-sezon-vanpis-vmeste-s-dzho-manganello/#comment_1807093">Российская актриса и модель сыграет во втором сезоне «Ван-Пис» вместе с Джо Манганьелло</a></li></ul></div></div>
+</div>
+<!-- // include/column_listing -->
+<!-- include/column_listing -->
+<div class="blist redesign_border" id="column_toptrailers">
+<h2 class="column_header">Популярные трейлеры</h2><div class="column_list" id="toptrailers_all"><span class="column_selected" id="toptrailers_header_all" onclick="change_list ('toptrailers', 'all');">Все</span> <span class="column_dashed" id="toptrailers_header_movies" onclick="change_list ('toptrailers', 'movies');">Кино</span> <span class="column_dashed" id="toptrailers_header_tv" onclick="change_list ('toptrailers', 'tv');">Сериалы</span> <span class="column_dashed" id="toptrailers_header_games" onclick="change_list ('toptrailers', 'games');">Игры</span> <span class="column_dashed" id="toptrailers_header_anime" onclick="change_list ('toptrailers', 'anime');">Аниме</span> </div><div id="toptrailers_list_all">
+<!-- include/toptrailers_ajax -->
+<ul><li><a href="/tv/sweetpea/trailers/#57086">Дорогуша</a> — 91%</li><li><a href="/tv/metod/trailers/#57068">Метод</a> — 90%</li><li><a href="/movies/denofthieves2/trailers/#57067">Охота на воров 2: Пантера</a> — 89%</li><li><a href="/tv/penguin/trailers/#57079">Пингвин</a> — 87%</li><li><a href="/movies/mickey17/trailers/#57064">Микки 17</a> — 87%</li><li><a href="/movies/heretic/trailers/#57066">Еретик</a> — 85%</li><li><a href="/tv/addamsfamily/trailers/#57123">Уэнсдэй</a> — 85%</li><li><a href="/tv/addamsfamily/trailers/#57078">Уэнсдэй</a> — 83%</li><li><a href="/games/legacyofkainsoulreaver1and2remastered/trailers/#57096">Legacy of Kain: Soul Reaver I &amp; II Remastered</a> — 81%</li><li><a href="/games/likeadragonpirateyakuzainhawaii/trailers/#57070">Like a Dragon: Pirate Yakuza in Hawaii</a> — 79%</li><li><a href="/games/tekken8/trailers/#57100">Tekken 8</a> — 79%</li><li><a href="/games/silenthill2remake/trailers/#57085">Silent Hill 2</a> — 78%</li><li><a href="/movies/redone/trailers/#57087">Красный</a> — 78%</li><li><a href="/movies/thunderbolts/trailers/#57089">Громовержцы</a> — 76%</li><li><a href="/movies/dontmove2024/trailers/#57069">Не двигайся</a> — 74%</li>
+<!-- // include/toptrailers_ajax -->
+</ul></div><div class="hidden" id="toptrailers_list_movies"></div><div class="hidden" id="toptrailers_list_tv"></div><div class="hidden" id="toptrailers_list_games"></div><div class="hidden" id="toptrailers_list_anime"></div>
+</div>
+<!-- // include/column_listing -->
+<!-- include/column_listing -->
+<div class="blist redesign_border" id="column_gallery">
+<h2 class="column_header">Обновления в галерее</h2><div class="column_list" id="gallery_all"><span class="column_selected" id="gallery_header_all" onclick="change_list ('gallery', 'all');">Все</span> <span class="column_dashed" id="gallery_header_movies" onclick="change_list ('gallery', 'movies');">Кино</span> <span class="column_dashed" id="gallery_header_tv" onclick="change_list ('gallery', 'tv');">Сериалы</span> <span class="column_dashed" id="gallery_header_games" onclick="change_list ('gallery', 'games');">Игры</span> <span class="column_dashed" id="gallery_header_anime" onclick="change_list ('gallery', 'anime');">Аниме</span> <span class="column_dashed" id="gallery_header_comics" onclick="change_list ('gallery', 'comics');">Комиксы</span> </div><div id="gallery_list_all"><div class="gallery_section vertical">
+<a class="gallery_item" href="/anime/saikyounoshienshokuwajutsushi/posters/"><div class="image" style="background-image: url(https://media.kg-portal.ru/anime/s/saikyounoshienshokuwajutsushi/posters/saikyounoshienshokuwajutsushi_1s.jpg);"> </div>
+<div class="title"><b></b>Самый известный диктор создаёт самый великий в мире клан</div>
+</a>
+<a class="gallery_item" href="/anime/dragonballdaima/posters/"><div class="image" style="background-image: url(https://media.kg-portal.ru/anime/d/dragonballdaima/posters/dragonballdaima_1s.jpg);"> </div>
+<div class="title"><b></b>Жeмчyг дpaкoнa: Дайма</div>
+</a>
+<a class="gallery_item" href="/anime/sayonararyuseikonnichiwajinsei/posters/"><div class="image" style="background-image: url(https://media.kg-portal.ru/anime/s/sayonararyuseikonnichiwajinsei/posters/sayonararyuseikonnichiwajinsei_1s.jpg);"> </div>
+<div class="title"><b></b>Прощай, драконья жизнь</div>
+</a>
+<a class="gallery_item" href="/anime/masamaretryr/posters/"><div class="counter">2</div><div class="image" style="background-image: url(https://media.kg-portal.ru/anime/m/masamaretryr/posters/masamaretryr_2s.jpg);"> </div>
+<div class="title"><b></b>Князь Тьмы: Retry! R</div>
+</a>
+<a class="gallery_item" href="/anime/hitoribotchinoisekaikryaku/production/"><div class="image" style="background-image: url(https://media.kg-portal.ru/anime/h/hitoribotchinoisekaikryaku/production/hitoribotchinoisekaikryaku_2s.jpg);"> </div>
+<div class="title"><b></b>Нападение одиночки на иной мир</div>
+</a>
+<a class="gallery_item" href="/comics/sabretooththedeaddonttalk/posters/"><div class="counter">4</div><div class="image" style="background-image: url(https://media.kg-portal.ru/comics/s/sabretooththedeaddonttalk/posters/sabretooththedeaddonttalk_4s.jpg);"> </div>
+<div class="title"><b></b>Саблезубый: Мёртвые не говорят</div>
+</a></div><div class="gallery_section horizontal">
+<a class="gallery_item" href="/movies/redone/images/"><div class="counter">5</div><div class="image" style="background-image: url(https://media.kg-portal.ru/images/redone/redone_5s.jpg);"> </div>
+<div class="title"><b></b>Красный</div>
+</a>
+<a class="gallery_item" href="/games/hellisus/posters/"><div class="image" style="background-image: url(https://media.kg-portal.ru/games/h/hellisus/posters/hellisus_1s.jpg);"> </div>
+<div class="title"><b></b>Hell is Us</div>
+</a>
+<a class="gallery_item" href="/games/ghostofyoutei/posters/"><div class="image" style="background-image: url(https://media.kg-portal.ru/games/g/ghostofyoutei/posters/ghostofyoutei_1s.jpg);"> </div>
+<div class="title"><b></b>Ghost of Yōtei</div>
+</a>
+<a class="gallery_item" href="/games/legacyofkainsoulreaver1and2remastered/production/"><div class="counter">2</div><div class="image" style="background-image: url(https://media.kg-portal.ru/games/l/legacyofkainsoulreaver1and2remastered/production/legacyofkainsoulreaver1and2remastered_2s.jpg);"> </div>
+<div class="title"><b></b>Legacy of Kain: Soul Reaver I &amp; II Remastered</div>
+</a>
+<a class="gallery_item" href="/games/legacyofkainsoulreaver1and2remastered/images/"><div class="counter">8</div><div class="image" style="background-image: url(https://media.kg-portal.ru/games/l/legacyofkainsoulreaver1and2remastered/images/legacyofkainsoulreaver1and2remastered_8s.jpg);"> </div>
+<div class="title"><b></b>Legacy of Kain: Soul Reaver I &amp; II Remastered</div>
+</a>
+<a class="gallery_item" href="/games/legacyofkainsoulreaver1and2remastered/posters/"><div class="image" style="background-image: url(https://media.kg-portal.ru/games/l/legacyofkainsoulreaver1and2remastered/posters/legacyofkainsoulreaver1and2remastered_1s.jpg);"> </div>
+<div class="title"><b></b>Legacy of Kain: Soul Reaver I &amp; II Remastered</div>
+</a></div></div><div class="hidden" id="gallery_list_movies"></div><div class="hidden" id="gallery_list_tv"></div><div class="hidden" id="gallery_list_games"></div><div class="hidden" id="gallery_list_anime"></div><div class="hidden" id="gallery_list_comics"></div>
+</div>
+<!-- // include/column_listing -->
+</div><!-- // div.content_side -->
+</div>
+
+Process finished with exit code 0
