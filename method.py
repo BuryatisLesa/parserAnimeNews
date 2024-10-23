@@ -1,3 +1,5 @@
+import time
+
 from lib_use import *
 
 
@@ -32,7 +34,7 @@ def create_absolute_url(f):
     for num_f in f:
         req = requests.get(f'{main_url}/news/anime/{num_f}', headers)  # запрос сайт/пользователь
         src = req.text
-        soup = BeautifulSoup(req.text, 'html.parser')
+        soup = BeautifulSoup(src, 'html.parser')
         container = soup.find_all('a', 'news_card_link')
         # получаем ссылки с страницы
         post_url = []
@@ -42,21 +44,56 @@ def create_absolute_url(f):
             absolute_url.append(str(url)[33:49])
             count += 1
             print(f'[{count}]Обработан и добавлен:[{str(url)[33:49]}]')
+            time.sleep(1)
     print((f'Обработано постов => {count}'))
     end_time = time.time()
     print((f'Время обработки ссылок => {(end_time - start_time)/60} минут'))
     return absolute_url
 
-def add_title(url):
+def add_title(urls):
+    title = []
+    count = 0
+    start_time = time.time()
+    for url in urls:
+        req = requests.get(f'{main_url}{url}', headers)  # запрос сайт/пользователь
+        src = req.text
+        soup = BeautifulSoup(src, 'html.parser')
+        container = soup.find_all('h1', 'news_title')
+        for title_container in container:
+            title.append(str(title_container.text))
+            print(f'[{count}]Добавлен заголовок ["{title_container.text}"]')
+            count+=1
+            time.sleep(1)
+    end_time = time.time()
+    print(f'Добавлено заголовков => [{count}]\n',
+          f'Время на обработку => {(end_time-start_time)/60} минут')
+    return title
+
+
+def add_content(urls):
+    content = []
+    content_join = []
+    count = 0
+    start_time = time.time()
+    for url in urls:
+        req = requests.get(f'{main_url}{url}', headers)  # запрос сайт/пользователь
+        src = req.text
+        soup = BeautifulSoup(src, 'html.parser')
+        container = soup.find('div','news_text').select('p')
+        for content_container in container:
+            result = ''.join(content_container.text)
+            content_join.append(result)
+            content.append(content_join)
+            time.sleep(1)
+        count += 1
+        print(f'[{count}]Добавлен текст ["{content_join}"]')
+    end_time = time.time()
+    print(f'Добавлено текст => [{count}]\n',
+          f'Время на обработку => {(end_time-start_time)/60} минут')
+    return content
+
+def add_image_post(urls):
     pass
-
-def add_content(url):
-    pass
-
-def add_image_post(url):
-    pass
-
-
 
 
 

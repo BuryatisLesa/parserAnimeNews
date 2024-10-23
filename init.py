@@ -1,9 +1,14 @@
-from method import create_absolute_url, next_page
+import time
 
-function = next_page()
+from method import create_absolute_url, next_page, add_title, add_content
 
-absolute_url = create_absolute_url(function)
-
-print(absolute_url)
+if __name__ == '__main__':
+    start_time = time.time()
+    function = next_page()
+    absolute_url = create_absolute_url(function)
+    add_title(absolute_url)
+    add_content(absolute_url)
+    end_time=time.time()
+    print(f'На обработку поста всего времени было занято => {(end_time-start_time)/60} минут')
 
 
